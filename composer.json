@@ -10,6 +10,7 @@
             "homepage": "https://github.com/icarasia/yii2-jwt"
         }
     ],
+    "minmum-stability":"dev",
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.6.0",
