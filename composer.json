@@ -1,16 +1,15 @@
 {
-    "name": "icarasia/yii2-jwt",
+    "name": "sizeg/yii2-jwt",
     "description": "JWT based on Icobucci",
 	"type": "yii2-extension",
 	"keywords": ["yii2", "yii 2", "jwt"],
 	"authors": [
         {
-            "name": "iCarAsia Engineering",
-            "email": "devops@icarasia",
-            "homepage": "https://github.com/icarasia/yii2-jwt"
+            "name": "Dmitriy Demin",
+            "email": "sizemail@gmail.com",
+            "homepage": "https://sizeg.tk"
         }
     ],
-    "minmum-stability":"dev",
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.6.0",
@@ -22,12 +21,12 @@
 	},
     "autoload": {
         "psr-4": {
-            "icarasia\\jwt\\": ""
+            "sizeg\\jwt\\": ""
         }
     },
 	"autoload-dev": {
         "psr-4": {
-            "icarasia\\jwt\\tests\\": "tests/"
+            "sizeg\\jwt\\tests\\": "tests/"
         }
     },
     "repositories": [
